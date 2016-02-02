@@ -34,4 +34,15 @@ describe('ES2015 Iterators ', () => {
       console.log(i);
     }
   });
+
+  it('should print iterator contents', () => {
+    const set = new Set([1, 2, 3]);
+
+    const iterator = set[Symbol.iterator]();
+
+    console.log(iterator.next());
+    console.log(iterator.next());
+    console.log(iterator.next());
+    console.log(iterator.next());
+  });
 });
