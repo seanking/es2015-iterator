@@ -10,4 +10,12 @@ describe('ES2015 Iterators ', () => {
       console.log(i);
     }
   });
+
+  it('should iterate over a string', () => {
+    const str = 'test';
+
+    for (const i of str) {
+      console.log(i);
+    }
+  });
 });
