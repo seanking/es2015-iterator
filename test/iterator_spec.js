@@ -26,4 +26,12 @@ describe('ES2015 Iterators ', () => {
       console.log(i);
     }
   });
+
+  it('should iterate over a set', () => {
+    const set = new Set([1, 2]);
+
+    for (const i of set) {
+      console.log(i);
+    }
+  });
 });
