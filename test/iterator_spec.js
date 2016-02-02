@@ -45,4 +45,31 @@ describe('ES2015 Iterators ', () => {
     console.log(iterator.next());
     console.log(iterator.next());
   });
+
+
+  it('should iterate over over custom iterable', () => {
+    const uut = new CustomIterableClass();
+
+    for (const i of uut) {
+      console.log(i);
+    }
+  });
 });
+
+class CustomIterableClass {
+  constructor() {
+    this.values = ['one', 'two', 'three'];
+  }
+
+  [Symbol.iterator]() {
+    let index = 0;
+    return {
+      next: () => {
+        const value = this.values[index];
+        const done = index >= this.values.length;
+        index++;
+        return { value, done };
+      },
+    };
+  }
+}
