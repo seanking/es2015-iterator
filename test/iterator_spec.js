@@ -18,4 +18,12 @@ describe('ES2015 Iterators ', () => {
       console.log(i);
     }
   });
+
+  it('should iterate over a map', () => {
+    const map = new Map([['one', 1], ['two', 2]]);
+
+    for (const i of map) {
+      console.log(i);
+    }
+  });
 });
