@@ -102,6 +102,6 @@ for (const i of agg) {
 }
 ```
 
-SUPPORT
+## SUPPORT
 
 As of this post, [nodejs](https://nodejs.org) provides support for the iterable and iterator protocols, but only a few browsers support the protocols. However, this doesn't mean that developers cannot use these features on the client-side now.  Polyfills and trans-compilers like [Babel](https://babeljs.io/) can enable these features now.
