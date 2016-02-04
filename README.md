@@ -18,7 +18,7 @@ for (let i = 0; i < arr.length; i++) {
 
 Though it may be common for developers to use a _for...in_ loop to iterate over an object instead of the traditional for loop, the _for...in_ loop only iterates over the enumerable properties and order is not guaranteed.
 
- ### ES2015
+### ES2015
 
 Iterating over an aggregate object has been simplified in ES2015. A _for...of_  loop was introduced to iterate over objects that implement the iterable protocol. In the following example, the _for...of_  loop iterates over an array.
 
