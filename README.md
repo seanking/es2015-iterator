@@ -79,7 +79,7 @@ class Aggregate {
 }
 ```
 
-In the following example, the values returned from the the _Aggregate_'s iterator are logged to the console. The first three objects returned contain the values from the _Aggregate_'s internal array and the done flag set to false. The last object returned has the done flag set to true, signaling the iteration is over.
+In the following example, the values returned from the the _Aggregate_'s iterator are logged to the console. The first, second, and third objects returned contain the values from the _Aggregate_'s internal array and the done flag set to false. The last object returned has the done flag set to true, signaling the iteration is over.
 
 ```javascript
 const agg = new Aggregate();
