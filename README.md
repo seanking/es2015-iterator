@@ -1,5 +1,5 @@
 # Iterators in ES2015
-Over the last 20 years, JavaScript hasn't had native support for the [iterator pattern](https://en.wikipedia.org/wiki/Iterator_pattern). The [ES2105 Language Specification](http://www.ecma-international.org/ecma-262/6.0/) changed this by introducing iteration protocols.
+Over the last 20 years, JavaScript hasn't had native support for the [iterator pattern](https://en.wikipedia.org/wiki/Iterator_pattern). The [ES2015 Language Specification](http://www.ecma-international.org/ecma-262/6.0/) changed this by introducing iteration protocols.
 
 The following examples demonstrate how to iterate over iterable objects (e.g.: Array, Map, Set, String, etc...) and define iterable objects using the iteration protocols.
 
